@@ -3,9 +3,10 @@
         display: none;
     }
 }
-html{
+/* html{
     scroll-behavior: smooth;
-}
+    
+} */
 html, body, #wrapper{ 
     height:100%;
     margin:0;

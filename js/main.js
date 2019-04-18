@@ -188,6 +188,11 @@ $("#dropBtn").click(function(){
 $(document).scroll(function(){
     $(".fixed").toggleClass("dopen", $(this).scrollTop() > 150);
 });
+/**smooth */
+$( "a.smooth" ).click(function( event ) {
+    event.preventDefault();
+    $("html, body").animate({ scrollTop: $($(this).attr("href")).offset().top }, 500);
+});
 
 /************************** */
 //Body tiklaninca kapatma kodları.
