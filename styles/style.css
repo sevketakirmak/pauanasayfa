@@ -393,6 +393,10 @@ body, #wrapper{
     pointer-events: none;
     cursor: default;
 }
+input[type='text'],
+textarea {
+  font-size: 17px;
+}
 /*******************************************************************/
 
 
