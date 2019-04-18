@@ -51,6 +51,23 @@
                         <img src="imgs/PAUlogoTR.png" alt="">
                         <div>
                             <input id="msearchText" type="text" placeholder="Ara">
+                            <ul id="msearchPreview">
+                                <li>Lorem ipsum dolor sit amet.</li>
+                                <li>Lorem ipsum dolor sit amet.</li>
+                                <li>Lorem ipsum dolor sit amet.</li>
+                                <li>Lorem ipsum dolor sit amet.</li>
+                                <li>Lorem ipsum dolor sit amet.</li>
+                                <li>Lorem ipsum dolor sit amet.</li>
+                                <li>Lorem ipsum dolor sit amet.</li>
+                                <li>Lorem ipsum dolor sit amet.</li>
+                                <li>Lorem ipsum dolor sit amet.</li>
+                                <li>Lorem ipsum dolor sit amet.</li>
+                                <li>Lorem ipsum dolor sit amet.</li>
+                                <li>Lorem ipsum dolor sit amet.</li>
+                                <li>Lorem ipsum dolor sit amet.</li>
+                                <li>Lorem ipsum dolor sit amet.</li>
+                                <li>Lorem ipsum dolor sit amet.</li>
+                            </ul>
                         </div>
                     </div>
                     <div class="col-1"> 
@@ -478,9 +495,24 @@
                 </div>
                 <div id="searchArea" class="container d-flex">
                     <ul id="search">
-                        <li id="serarchInput">
-                            <input type="text" placeholder="Ara">
-                        </li>
+                        <li id="serarchInput"><input type="text" placeholder="Ara"></li>
+                        <ul id="searchPreview">
+                            <li>Lorem ipsum dolor sit amet.</li>
+                            <li>Lorem ipsum dolor sit amet.</li>
+                            <li>Lorem ipsum dolor sit amet.</li>
+                            <li>Lorem ipsum dolor sit amet.</li>
+                            <li>Lorem ipsum dolor sit amet.</li>
+                            <li>Lorem ipsum dolor sit amet.</li>
+                            <li>Lorem ipsum dolor sit amet.</li>
+                            <li>Lorem ipsum dolor sit amet.</li>
+                            <li>Lorem ipsum dolor sit amet.</li>
+                            <li>Lorem ipsum dolor sit amet.</li>
+                            <li>Lorem ipsum dolor sit amet.</li>
+                            <li>Lorem ipsum dolor sit amet.</li>
+                            <li>Lorem ipsum dolor sit amet.</li>
+                            <li>Lorem ipsum dolor sit amet.</li>
+                            <li>Lorem ipsum dolor sit amet.</li>
+                        </ul>
                     </ul>
                 </div>
             </div>
@@ -1177,7 +1209,7 @@
                             container: 'slider',
                             h_align: 'left',
                             v_align: 'bottom',
-                            h_offset: 30,
+                            h_offset: 0,
                             v_offset: 10
                         },
  
@@ -1185,7 +1217,7 @@
                             container: 'slider',
                             h_align: 'right',
                             v_align: 'bottom',
-                            h_offset: 30,
+                            h_offset: 0,
                             v_offset: 10
                         }
                     },
