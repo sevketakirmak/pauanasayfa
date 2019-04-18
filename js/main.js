@@ -185,6 +185,10 @@ $("#dropBtn").click(function(){
         dropOpen=true;
     }
 });
+$(document).scroll(function(){
+    $(".fixed").toggleClass("dopen", $(this).scrollTop() > 150);
+});
+
 /************************** */
 //Body tiklaninca kapatma kodları.
 var footerOpen=false;
