@@ -1,0 +1,138 @@
+@media (max-width: 992px){
+    .corporate{
+        height: 600px;
+    }
+    .stable .nav-link{
+        margin: 0!important;
+    }
+    .reset{
+        margin: 0;
+        height: 232px;
+    }
+    .academic{
+        height: 700px;
+    }
+    .research{
+        height: 600px;
+    }
+    .sp-container{
+        box-shadow: none;
+    }
+    #buttons{
+        margin: 5px auto;
+        text-align: center
+    }
+    #buttons .btn{
+        width: 100%;
+        height: 85px;
+        text-align: center;
+        margin: 0 auto;
+        position: static;
+    }
+    #mainHead li{
+        font-size: 12.5px;
+        margin-left: 7.5px;
+    }
+    #mainMenu .navbar{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    #mainMenu nav ul li{
+        font-size: 10px;
+        margin: 0;
+        padding-top: 0;
+    }
+    .panel-default{
+        margin:0;
+    }
+    .container .col-lg-3{
+        padding-right: 15px!important;
+        padding-left: 15px!important;
+    }
+    .panel-heading h4{
+        background: #0071cd;
+    }
+    .breadcrumb{
+        top: 79.5%;
+        left: 26%;
+    }
+    .fixed-bottom{
+        position: fixed!important;
+    }
+    .drpdownMenu{
+        margin-bottom: 50px;
+    }
+    #buttons div:nth-last-child(2) .btn{
+        background:#FCFCFC; 
+        color:black;
+    }
+    #buttons div:nth-last-child(1) .btn{
+        background:#FCFCFC!important; 
+        color:black!important;
+    }
+    #buttons div:nth-last-child(1) .btn:hover{
+        background:#E4E4E4!important;
+    }
+    #barsMenu .active{
+        background: #0078FF;
+    }
+}
+@media (max-width: 768px){
+    .sp-arch{
+        height: 190px;
+    }
+    .lab{
+        height: 130px;
+    }
+    .corporate{
+        height: 1100px;
+    }
+    .research{
+        height: 1000px;
+    }
+    .student{
+        height: 500px!important;;
+    }
+    #buttons .btn{
+        width: 100%;
+    }
+    .drpdownMenu{
+        display: none;
+    }
+    .breadcrumb{
+        padding: 0;
+        top: 80%;
+        font-size: 15px;
+    }
+    .fixed-bottom{
+        position: relative!important;
+    }
+    #buttons .btn{
+        font-size: 10px;
+        padding-top: 17.5px;
+        height: 65px;
+    }
+    #qmButtons{
+        height: 740px;
+    }
+    #qmButtons .container{
+        height: 790px;
+    }
+    #imagesStudent{
+        display: none!important;
+    }
+    .open{
+        display: none!important;
+    }
+    .mainImage{
+        height: auto;
+    }
+}
+@media (max-width: 576px){
+    .breadcrumb{
+        padding: 0;
+        top: 87%;
+        left: 33%;
+        font-size: 13px;
+    }
+}

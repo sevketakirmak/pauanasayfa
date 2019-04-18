@@ -1,0 +1,766 @@
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    #menu{
+        display: none;
+    }
+}
+html{
+    scroll-behavior: smooth;
+}
+html, body, #wrapper{ 
+    height:100%;
+    margin:0;
+}
+body, #wrapper{
+    font-family: Montserrat;
+    margin:0;
+    display:flex; 
+    flex-direction:column; 
+    font-size: 14px;
+}
+
+/*Header*/
+#search{
+    display: none;
+    width: 88%;
+    margin-right: 42.5px!important
+}
+#searchPreview, #msearchPreview{
+    height: 250px;
+    overflow: auto;
+    display: none;
+    border-radius: 2px;
+    border:1px solid rgba(61, 61, 61, 0.5);
+}
+#searchPreview li, #msearchPreview li{
+    background: white;
+    color: black;
+    text-align: left!important;
+}
+#searchPreview li:nth-child(even), #msearchPreview li:nth-child(even){
+    background: rgb(233, 233, 233);
+}
+#msearchPreview li{
+    padding: 5px!important;
+}
+#msearchPreview{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    width: 100%;
+}
+#searchArea{
+    margin-top: -74px;
+}
+#search li {
+    width: 100%;
+    float: left;
+    text-align: right;
+    padding:5px 10px;
+}
+#searchBtn{
+    float: left;
+    padding:5px 10px;
+}
+#serarchInput{
+    display: none;
+    padding: 0!important;
+    padding-top: 5px!important;
+}
+#serarchInput input{
+    height: 50px;
+    border:1px solid rgba(61, 61, 61, 0.5);
+    border-radius: 2px;
+    padding: 10px;
+    width: 100%;
+}
+#mainHead{
+    position: absolute;
+    z-index: 100;
+    height:125px;
+    margin: 0;
+    width: 100%;
+}
+#mainHead ul ul:last-child{
+    margin-top: 4px;
+}
+#mainHead .container, #mainNav .container{
+    padding: 0;
+}
+#mainHead .dropdown-menu{
+    border-radius: 0;
+    border: none;
+    background: rgb(53, 53, 53);
+    margin: 0;
+}
+#mainHead .dropdown-item{
+    color: white;
+    font-size: 12px;
+    padding: 1px 15px;
+}
+#mainHead a{
+    font-size: 11px;
+    color: white;
+    text-decoration: none;
+}
+#mainHead a:hover{
+    color: #06c8f2;
+    text-decoration: none;
+}
+#dropFast{
+    height: 100%!important;
+    padding: 3px;
+    padding-right: 0px;
+}
+#dropFast:hover{
+    color: white!important;
+    background: #0078FF;
+}
+#mainHead .dropdown-divider {
+    border-top: 1px solid #e2e3e43b;
+}
+#mainHead .dropdown-item:hover{
+    background: #0078FF;
+    color: white!important;
+}
+.mainBg{
+    padding: 0;
+    margin:0;
+    width: 100%;
+    height: 125px;
+    position: absolute;
+    z-index: 80;
+    background:rgba(0, 0, 0, 0.85);
+}
+.mmenuBg{
+    padding: 0;
+    margin:0;
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    z-index: 80;
+    background:rgba(0, 0, 0, 0.85);
+}
+#mainHead .logo{
+    width: 85px;
+    margin-top: 5px;
+    float:left;
+    z-index: 90;
+}
+#mainHead .container{
+    width: 90%;
+}
+#mainHead h3{
+    color:white;
+    padding-left: 10px;
+    font-size: 25px;
+    margin-top: 5px; 
+    font-family: Ubuntu;
+    z-index: 90;
+}
+#mainHead ul{
+    list-style:none;
+    color:white;
+    margin-right: 0;
+    margin-left:auto;
+    padding: 0;
+    z-index: 90;
+}
+.stable{
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 100;
+    position: absolute;
+}
+.mainImage{
+    width: 100%;
+    height: 270px;
+    position: relative;
+    text-align: center;
+}
+.mainImage img{
+    width: 100%;
+    height: 100%;
+}
+.mmenuBtn{
+    z-index: 150;
+    position: absolute;
+    padding: 5px;
+    display: none;
+    /*rgba(76, 76, 76, 0.75);*/
+    width: 100%;
+}
+.mmenuBtn a{
+    color: white;
+}
+.mmenuBtn a .fas{
+    padding: 5px;
+}
+.mmenuBtn .fa-search{
+    float:right;
+    color: white;
+}
+.mmenuBtn .row{
+    margin:0;
+}
+.mmenuBtn .col-9{
+    padding: 0;
+}
+.mmenuBtn input{
+    width: 100%;
+    height: 35px;
+    position: relative;
+    display: none;
+}
+.mmenuBtn .row .col-1{
+    padding:0;
+}
+.drpdownMenu h5{
+    font-size: 18px;
+}
+#social .drpdownMenu, .col-4{
+    height: 170px;
+}
+.student{
+    height: 380px!important;
+}
+#social ul{
+    height: 100px;
+}
+.social{
+    height: 150px;
+}
+.stable .nav-link{
+    margin: 0 5px!important;
+    padding: 5px!important;
+}
+.nav-item{
+    margin-right: 2.5px;
+    margin-left: 2.5px;
+}
+.open{
+    display: block!important;
+    transition: all 0.25s;
+}
+.drpdownMenu ul{
+    height: 250px;
+    overflow: auto;
+}
+.drpdownMenu a{
+    color: black;
+}
+.drpdownMenu a:hover{
+    color: gray;
+    text-decoration: none;
+}
+.drpdownMenu{
+    display: none;
+    position: absolute !important;
+    background: #F9F9F9;
+    color: black;
+    padding-left: 30px!important;
+    padding-right: 30px!important;
+    z-index: 250;
+    margin-top: 150px;
+    height: 350px;
+    border-radius: 5px;
+}
+#mainMenu .navbar{
+    border-radius: 5px;
+    text-align: center;
+    float: left;
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    background: #F7F7F9;
+    margin:0;
+    padding: 0;
+    margin-top: 100px;
+    display: flex;
+    align-items: stretch;
+}
+#mainMenu .navbar ul{
+    overflow: hidden;
+    margin: 0 25px;
+    padding: 0;
+}
+#mainMenu nav ul li{
+    font-size: 15px;
+    list-style: none;
+    float: left;
+    text-align: center;
+}
+#mainNav h5{
+    color: #014784;
+}
+#mainNav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.special{
+    color: black;
+    float:left;
+}
+.special:hover{
+    border-radius: 5px;
+    color: white;
+    background: #0078FF;
+}
+.spMenu{
+    border-radius: 5px;
+    color: white;
+    background: #0078FF;
+    transition: background 0.15s;
+}
+.spMenu:hover{
+    color: white;
+}
+.sp-hover{
+    border-radius: 5px;
+    color: black;
+    background: #F9F9F9;
+}
+.spStudent{
+    color: black;
+    float:left;
+    padding-right: 25px;
+}
+.spStudent:hover{
+    border-radius: 5px;
+    color: white;
+    background: #0078FF;
+}
+#academic{
+    padding-top: 30px!important;
+}
+#academic ul{
+    height: 100%;
+}
+#academic .list-group-item{
+    border: none;
+    
+    background: none;
+}
+#title{
+    padding-bottom: 10px;
+}
+#barsMenu .active{
+    color: white;
+    border-radius: 0px;
+    background: url("../imgs/arrow.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    /*border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    background: #0078FF;*/
+}
+.mmenuBtn img{
+    height: 35px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+#breadcrumb{
+    margin-top: -39px;
+}
+.breadcrumb{
+    height: 39px;
+    padding: 10px;
+    background: none;
+    border-radius: 0;
+    color: white;
+    text-shadow: 3px -2px 3px rgba(0, 0, 0, 1);
+    position: absolute; 
+    top: 70%; 
+    left: 18%; 
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    font-weight: 500;
+}
+.breadcrumb a, .breadcrumb-item+.breadcrumb-item::before{
+    color: white;
+}
+.breadcrumb a:hover{
+    text-decoration: none;
+}
+#imagesStudent a{
+    pointer-events: none;
+    cursor: default;
+}
+/*******************************************************************/
+
+
+/*Content*/
+#iconUpDown{
+    float: right;
+}
+#rev_slider_1 p{
+    margin-top: 20px;
+}
+#rev_slider_1 a{
+    color: white;
+    font-size: 20px;
+}
+#rev_slider_1 a:hover{
+    color: gainsboro;
+    text-decoration: none;
+}
+.rev_slider_wrapper{
+    z-index: 50;
+    position: static;
+}
+.slotholder{
+    transform: translate3d(0px, 0px, 0px)!important;
+}
+.rs-parallaxlevel-2{
+    z-index: 7;
+    white-space: nowrap;
+    text-align: center!important;
+    font-family: Open Sans!important;
+    cursor: pointer;
+}
+.tp-revslider-mainul{
+    width: 100%!important;
+    height: 100%!important;
+}
+#buttons{
+    z-index: 200;
+    position: relative!important;
+    margin-top: -3%;
+}
+
+#buttons .btn{
+    font-size: 10px;
+    height: 80px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    background: #FCFCFC;
+    padding: 0;
+    padding-top: 22px;
+    border: none;
+    border-radius: 0;
+    outline: none;
+    color:black;
+    border: none;
+}
+#buttons .btn:hover{
+    background: #E4E4E4;
+}
+#buttons div:nth-last-child(2) .btn{
+    background:#238eca; 
+    color:white;
+}
+#buttonsExtra{
+    z-index: 200;
+    background:url("../imgs/prism.png");
+}
+#buttonsExtra .button{
+    border:none;
+    margin: 20px auto;
+    border-radius: 5px;
+    height: 80px;
+}
+#buttonsExtra .owl-carousel{
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+/*rgb(61, 61, 61), rgb(1, 64, 141) google material
+#buttonsExtra .btn{
+    font-size: 12px;
+    height: 80px;
+    width: 100%;
+    margin: 20px auto;
+    text-align: center;
+    background: #FCFCFC;
+    padding: 0;
+    padding-top: 17px;
+    border: none;
+    border-radius: 0;
+    outline: none;
+    color:black;
+    border: 1px solid rgba(133, 190, 255, 0.75);
+}*/
+#buttonsExtra .fa-caret-left:before, #buttonsExtra .fa-caret-right:before{
+    color: white;
+}
+#buttonsExtra .btn:hover{
+    background: #E4E4E4;
+}
+.owl-prev, .owl-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.owl-prev {
+    left: -1rem;
+}
+.owl-next {
+    right: -1rem;
+}
+.sp-container{
+    width: 75%;
+    box-shadow: 5px 3px 29px -5px rgba(0, 0, 0, 0.5);
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.panel-heading{
+    border: 1px solid rgba(0,0,0,.125);
+    border-bottom: none;
+}
+.panel-heading h4{
+    font-size: 16px;
+    padding: 10px;
+    margin: 0;
+    background:rgba(0, 0, 0, 0.85);
+}
+.panel-heading h4 a{
+    color: white;
+}
+.panel-heading h4 a:hover{
+    color: white;
+    text-decoration: none;
+}
+.list-group li:first-child{
+    border-radius: 0;
+}
+.list-group li:last-child{
+    border-radius: 0;
+}
+#listGroup .list-group-item{
+    padding: 0px;
+}
+.list-group-item{
+    padding: 7.5px;
+}
+#listGroup .button--wayra{
+    border-radius: 0;
+    border: none;
+    height: 100%;
+    padding: 10px;
+    color: black;
+}
+#listGroup .button--wayra:hover{
+    color: black;
+}
+#listGroup .button--wayra:hover::before{
+    background-color: rgb(233, 233, 233);
+}
+.panel-footer .button--wayra{
+    border: 1px solid rgba(0,0,0,.125) !important;
+    border-top: none!important;
+    padding: 0px;
+    background: #FCFCFC;
+}
+.panel-default{
+    margin-top: -40px;
+}
+#allButtons{
+    background: linear-gradient(145deg, rgba(223, 233, 245, 0.65) 50%, rgba(239, 247, 255, 0.65) 50%);
+}
+#studentButtons .drpdownMenu{
+    /* background: url("../imgs/plaid.png");  rgb(72, 146, 236);*/
+    background: linear-gradient(80deg, rgb(0, 90, 201), rgb(80, 151, 238));
+}
+#qmButtons{
+    padding: 30px;
+    background: linear-gradient(80deg, #014784, #238eca);
+    /* background: url("../imgs/oriental.png"); 8594e4, 7AB3D3 rgb(1, 64, 141), rgb(1, 80, 177) #C0392B #238eca #16A085*/
+    height: 270px;
+}
+#qmButtons .container{
+    -webkit-box-shadow: 0px 0px 10px 5px rgb(61,61,61);
+    -moz-box-shadow: 0px 0px 10px 5px rgb(61,61,61);
+    box-shadow: 0px 0px 10px 5px rgb(61,61,61);
+    background: url("../imgs/prism.png");
+    height: 400px;
+    margin-top: -75px;
+    width: 100%;
+    padding: 50px 20px;
+}
+#sBg{
+    position: absolute;
+    margin-top: -30px;
+    margin-left: 60px;
+    width: 70%;
+    height: 230px;
+    background: url("../imgs/student4.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: 0.85;
+    left: 0;
+}
+#sBg-2{
+    position: absolute;
+    margin-top: -30px;
+    margin-right: 45px;
+    width: 70%;
+    height: 220px;
+    background: url("../imgs/student2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: 0.85;
+    right: 0;
+}
+#studentButtons h5{
+    padding-bottom: 10px;
+    font-size: 16px;
+    text-align: center;
+    /*border-bottom: 1px solid #2125299c;*/
+}
+#qmButtons h5{
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    /*border-bottom: 1px solid #2125299c;*/
+}
+#studentButtons .btn-outline-primary{
+    height: 50px;
+    font-size: 12px;
+    width: 100%;
+    color: rgb(0, 50, 107);
+    border-color: rgba(201, 201, 201, 0.8);
+    transition: all 0.5s;
+}
+#studentButtons .btn-outline-primary:hover{
+    font-size: 13px;
+    color: rgb(56, 56, 56);
+    background: rgba(201, 201, 201, 0.4);
+    border-color: rgba(201, 201, 201, 0.8);
+    transition: all 0.5s;
+}
+#studentButtons .btn-outline-primary:hover .fas{
+    border-color: rgba(61serarchInput, 61, 61, 0.5);
+}
+#studentButtons .col-3{
+    margin-top: 20px;
+}
+#studentButtons .fas{
+    border-right: 1px solid white;
+    padding-right: 5px;
+    line-height: 15px;
+}
+#studentButtons .col-md-4, .col-lg-3{
+    padding: 10px;
+}
+/**********************************************************************/
+
+
+/*Footer*/
+footer{
+    margin-top:auto;
+    bottom: 0;
+}
+#dropBtn{
+    font-size: 12px;
+    color: white;
+    height: 100%;
+    outline: none;
+    background: none;
+    border: none;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: auto;
+    right: 0;
+    margin-right: 100px;
+}
+#btnCom{
+    font-size: 12px;
+}
+.bgBlue{
+    background: #0078FF!important;
+}
+#dropBtn:hover{
+    color: white;
+    background: #0078FF;
+}
+footer ul{
+    list-style-type: none;
+    padding: 0;
+}
+.footerLinks li:first-child{
+    font-size: 14px;
+    color: white;
+}
+footer li{
+    font-size: 12px;
+    color: white;
+}
+footer a{
+    color: white;
+}
+footer a:hover{
+    color: darkturquoise;
+    text-decoration: none;
+}
+footer p{
+    color: white;
+}
+hr {
+    height: 1px;
+    color: rgba(255, 255, 255, 0.767);
+    background: rgba(26, 26, 26, 0.795);
+    border: 0;
+    box-shadow: 5px 3px 29px -5px rgba(0,0,0,0.5);
+}
+#facebook a:hover{
+    color:  #3b5998;
+}
+#twitter a:hover{
+    color: #1da1f2;
+}
+#insta a:hover{
+    color: #C13584;
+}
+#youtube a:hover{
+    color: #c4302b;
+}
+.fixed-bottom{
+    display: table;
+    position: relative!important;
+    padding:0;
+    bottom: 0;
+    width: 100%;
+    background: rgb(53, 53, 53);
+    height: 32.5px;
+}
+.bg{
+    background: rgb(53, 53, 53);
+}
+.dropup { 
+    position: static;
+}
+#myFooter .dropdown-menu {
+    width: 100%; 
+    background: rgb(53, 53, 53); 
+    border-radius: 0;
+    box-shadow: inset 5px 3px 29px -5px rgba(0,0,0,0.5);
+    margin-bottom: 0;
+}
+#myFooter .dropdown-menu.show{
+    position: relative;
+    margin: 0;
+    width: 100%;
+}
+#copyrightFooter p{
+    color: lightgray;
+    margin: 9px;
+    margin-left: 55px;
+    display: none;
+}
+.socialMedia li{
+    float: left;
+    padding: 0 20px;
+}
+#dropdownFooter{
+    margin-top: 5px;
+}
+/**********************************************************************/
