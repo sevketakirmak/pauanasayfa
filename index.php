@@ -193,7 +193,7 @@
                 <div class="container">
                     <div id="academic" class="container drpdownMenu academic">
                         <div class="row">
-                            <div id="title" class="col-sm-12 col-lg-2">
+                            <div id="title" class="col-sm-12 col-lg-3">
                                 <div class="pos-f-t">
                                     <div class="collapse show d-md-block" id="navbarToggleExternalContent">
                                         <div class="bg-light">
@@ -208,7 +208,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-sm-12 col-lg-10">
+                            <div class="col-sm-12 col-lg-9">
                                 <div class="tab-content" id="nav-tabContent">
                                     <div class="tab-pane fade show active" id="list-student" role="tabpanel" aria-labelledby="list-student-list">
                                         <div class="row">
@@ -689,7 +689,7 @@
                     <div><a href="http://app.pau.edu.tr/fone/rektorRandevu/talep.aspx" target="_blank" class="btn"><i class="far fa-calendar-alt fa-2x"></i><br>Rektör Randevu Talep</a></div>
                     <div><a href="https://app.pau.edu.tr/abs/Rezervasyon/EtkinlikSalonTalepIslemleri.aspx" target="_blank" class="btn"><i class="far fa-clock fa-2x"></i><br>Etkinlik Salon Talep</a></div>
                     <div><a href="https://pusula.pau.edu.tr/login.aspx?appKey=1794eb13-16f1-4118-b6e5-19916543e96b&backurl=https://obis.pau.edu.tr/alms/" target="_blank" class="btn"><i class="fas fa-desktop fa-2x"></i><br>Uzaktan Eğitim Sistemi</a></div>
-                    <div><a href="#" class="btn"><i class="fas fa-hourglass-start fa-2x"></i></i><br>Başvuru Süreci</a></div>
+                    <div><a href="altsayfa.php" class="btn"><i class="fas fa-hourglass-start fa-2x"></i></i><br>Başvuru Süreci</a></div>
                     <div><a href="#" class="btn"><i class="fas fa-poll-h fa-2x"></i><br>Başvuru Sonuçları</a></div>
                 </div>
             </div>

@@ -35,21 +35,29 @@
                         <div>
                             <input id="msearchText" type="text" placeholder="Ara">
                             <ul id="msearchPreview">
-                                <li>Lorem ipsum dolor sit amet.</li>
-                                <li>Lorem ipsum dolor sit amet.</li>
-                                <li>Lorem ipsum dolor sit amet.</li>
-                                <li>Lorem ipsum dolor sit amet.</li>
-                                <li>Lorem ipsum dolor sit amet.</li>
-                                <li>Lorem ipsum dolor sit amet.</li>
-                                <li>Lorem ipsum dolor sit amet.</li>
-                                <li>Lorem ipsum dolor sit amet.</li>
-                                <li>Lorem ipsum dolor sit amet.</li>
-                                <li>Lorem ipsum dolor sit amet.</li>
-                                <li>Lorem ipsum dolor sit amet.</li>
-                                <li>Lorem ipsum dolor sit amet.</li>
-                                <li>Lorem ipsum dolor sit amet.</li>
-                                <li>Lorem ipsum dolor sit amet.</li>
-                                <li>Lorem ipsum dolor sit amet.</li>
+                                <li><button href="#" class="aBtn">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-12">
+                                                Duyuru Başlığı
+                                            </div>
+                                            <div class="col-12">
+                                                Duyuru Tarihi: XX/XX/XXXX
+                                            </div>
+                                            <div class="col-12">
+                                                Duyuru Oluşturan: ...
+                                            </div>
+                                        </div>
+                                    </div>
+                                </button></li>
+                                <li><button href="#" class="aBtn">Lorem ipsum dolor sit amet.</button></li>
+                                <li><button href="#" class="aBtn">Lorem ipsum dolor sit amet.</button></li>
+                                <li><button href="#" class="aBtn">Lorem ipsum dolor sit amet.</button></li>
+                                <li><button href="#" class="aBtn">Lorem ipsum dolor sit amet.</button></li>
+                                <li><button href="#" class="aBtn">Lorem ipsum dolor sit amet.</button></li>
+                                <li><button href="#" class="aBtn">Lorem ipsum dolor sit amet.</button></li>
+                                <li><button href="#" class="aBtn">Lorem ipsum dolor sit amet.</button></li>
+                                <li><button href="#" class="aBtn">Lorem ipsum dolor sit amet.</button></li>
                             </ul>
                         </div>
                     </div>
@@ -168,7 +176,7 @@
                 <div class="container">
                     <div id="academic" class="container drpdownMenu academic">
                         <div class="row" style="margin-left:10px;">
-                            <div id="title" class="col-sm-12 col-lg-2">
+                            <div id="title" class="col-sm-12 col-lg-3">
                                 <div class="pos-f-t">
                                     <div class="collapse show d-md-block" id="navbarToggleExternalContent">
                                         <div class="bg-light">
@@ -183,7 +191,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-sm-12 col-lg-10">
+                            <div class="col-sm-12 col-lg-9">
                                 <div class="tab-content" id="nav-tabContent">
                                     <div class="tab-pane fade show active" id="list-student" role="tabpanel" aria-labelledby="list-student-list">
                                         <div class="row">
@@ -480,21 +488,27 @@
                     <ul id="search">
                         <li id="serarchInput"><input type="text" placeholder="Ara"></li>
                         <ul id="searchPreview">
-                            <li>Lorem ipsum dolor sit amet.</li>
-                            <li>Lorem ipsum dolor sit amet.</li>
-                            <li>Lorem ipsum dolor sit amet.</li>
-                            <li>Lorem ipsum dolor sit amet.</li>
-                            <li>Lorem ipsum dolor sit amet.</li>
-                            <li>Lorem ipsum dolor sit amet.</li>
-                            <li>Lorem ipsum dolor sit amet.</li>
-                            <li>Lorem ipsum dolor sit amet.</li>
-                            <li>Lorem ipsum dolor sit amet.</li>
-                            <li>Lorem ipsum dolor sit amet.</li>
-                            <li>Lorem ipsum dolor sit amet.</li>
-                            <li>Lorem ipsum dolor sit amet.</li>
-                            <li>Lorem ipsum dolor sit amet.</li>
-                            <li>Lorem ipsum dolor sit amet.</li>
-                            <li>Lorem ipsum dolor sit amet.</li>
+                            <li><button href="#" class="aBtn">
+                                <div class="container">
+                                    Duyuru Başlığı
+                                    <div class="row">
+                                        <div class="col-6">
+                                            Duyuru Tarihi: XX/XX/XXXX
+                                        </div>
+                                        <div class="col-6">
+                                            Duyuru Oluşturan: ...
+                                        </div>
+                                    </div>
+                                </div>
+                            </button></li>
+                            <li><button href="#" class="aBtn">Lorem ipsum dolor sit amet.</button></li>
+                            <li><button href="#" class="aBtn">Lorem ipsum dolor sit amet.</button></li>
+                            <li><button href="#" class="aBtn">Lorem ipsum dolor sit amet.</button></li>
+                            <li><button href="#" class="aBtn">Lorem ipsum dolor sit amet.</button></li>
+                            <li><button href="#" class="aBtn">Lorem ipsum dolor sit amet.</button></li>
+                            <li><button href="#" class="aBtn">Lorem ipsum dolor sit amet.</button></li>
+                            <li><button href="#" class="aBtn">Lorem ipsum dolor sit amet.</button></li>
+                            <li><button href="#" class="aBtn">Lorem ipsum dolor sit amet.</button></li>
                         </ul>
                     </ul>
                 </div>
