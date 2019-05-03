@@ -212,13 +212,16 @@
                                 <div class="tab-content" id="nav-tabContent">
                                     <div class="tab-pane fade show active" id="list-student" role="tabpanel" aria-labelledby="list-student-list">
                                         <div class="row">
-                                            <div class="col-md-12 col-lg-6">
+                                            <div class="col-md-12 col-lg-4">
                                                 <ul>
                                                     <h5>Bağlantılar</h5>
                                                     <li><a>Eğitim Bilgi Sistemi</a></li>
                                                     <li><a>Kütüphane ve Dokümantasyon Daire Başkanlığı</a></li>
                                                     <li><a>Öğrenci Bilgi Sistemi</a></li>
-                                                    <br>
+                                                </ul>
+                                            </div>
+                                            <div class="col-md-12 col-lg-4">
+                                                <ul>
                                                     <h5>Öğrenci İşleri</h5>
                                                     <li><a>Uluslararası İlişkiler Koordinatörlüğü</a></li>
                                                     <li><a>Öğrenci İşleri Daire Başkanlığı</a></li>                                                                
@@ -226,7 +229,7 @@
                                                     <li><a>Sağlık Kültür ve Spor Daire Başkanlığı</a></li>
                                                 </ul>
                                             </div>
-                                            <div class="col-md-12 col-lg-6">
+                                            <div class="col-md-12 col-lg-4">
                                                 <ul>
                                                     <h5>Sosyal Hizmetler</h5>
                                                     <li><a>Engelli Öğrenci Birimi Koordinatörlüğü</a></li>
@@ -497,7 +500,7 @@
                             </li>
                         </ul>
                         <ul>
-                            <li id="searchBtn" style="cursor: pointer;"><i class="fas fa-search fa-2x"></i></li>
+                            <li class="" id="searchBtn" style="cursor: pointer;"><i class="fas fa-search fa-2x"></i></li>
                         </ul>
                     </ul>
                 </div>
@@ -684,12 +687,12 @@
                 </div>
             </div>
             <div id="mainButtons">
-                <div id="buttons" class="sp-container owl-carousel">
+                <div id="buttons" class="container owl-carousel">
                     <div><a href="https://pusula.pau.edu.tr/login.aspx?appKey=1794eb13-16f1-4118-b6e5-19916543e96b&backurl=https://obis.pau.edu.tr/" target="_blank" class="btn"><i class="fas fa-graduation-cap fa-2x"></i><br>Öğrenci Bilgi Sistemi</a></div>
                     <div><a href="http://app.pau.edu.tr/fone/rektorRandevu/talep.aspx" target="_blank" class="btn"><i class="far fa-calendar-alt fa-2x"></i><br>Rektör Randevu Talep</a></div>
                     <div><a href="https://app.pau.edu.tr/abs/Rezervasyon/EtkinlikSalonTalepIslemleri.aspx" target="_blank" class="btn"><i class="far fa-clock fa-2x"></i><br>Etkinlik Salon Talep</a></div>
                     <div><a href="https://pusula.pau.edu.tr/login.aspx?appKey=1794eb13-16f1-4118-b6e5-19916543e96b&backurl=https://obis.pau.edu.tr/alms/" target="_blank" class="btn"><i class="fas fa-desktop fa-2x"></i><br>Uzaktan Eğitim Sistemi</a></div>
-                    <div><a href="altsayfa.php" class="btn"><i class="fas fa-hourglass-start fa-2x"></i></i><br>Başvuru Süreci</a></div>
+                    <div><a href="#" class="btn"><i class="fas fa-hourglass-start fa-2x"></i></i><br>Başvuru Süreci</a></div>
                     <div><a href="#" class="btn"><i class="fas fa-poll-h fa-2x"></i><br>Başvuru Sonuçları</a></div>
                 </div>
             </div>
@@ -767,16 +770,14 @@
             </div>
             <div id="dropdownFooter" class="d-none d-md-block">
                 <div class="container">
-                    <div class="row">
-                        <div class="col-xs-6">
-                            <a id="btnCom" href="http://www.pau.edu.tr/tanitim">İletişim ve Ulaşım</a>
-                        </div>
-                        <div class="col-xs-6"></div>
-                        <div class="dropup">
-                            <button id="dropBtn">
-                                <span>Kurumsal Bağlantılar <i class="fas fa-caret-up"></i></span>
-                            </button>
-                            <div id="drop-Menu" class="dropdown-menu">
+                    <div class="com">
+                        <a id="btnCom" href="http://www.pau.edu.tr/tanitim">İletişim ve Ulaşım</a>
+                    </div>
+                    <div class="dropup">
+                        <button id="dropBtn">
+                            <span>Kurumsal Bağlantılar <i class="fas fa-caret-up"></i></span>
+                        </button>
+                        <div id="drop-Menu" class="dropdown-menu">
                                 <div class="container">
                                     <div class="row footerLinks">
                                         <div class="col-3">
@@ -854,7 +855,6 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -1275,7 +1275,7 @@
                 responsiveClass:true,
                 nav:true,
                 autoplay:true,
-                autoplayTimeout:7000,
+                autoplayTimeout:3000,
                 navText: ["<i class='fas fa-caret-left' style='font-size:17.5px;'></i>", "<i class='fas fa-caret-right' style='font-size:17.5px;'></i>"],
                 dots:false,
                 responsive:{

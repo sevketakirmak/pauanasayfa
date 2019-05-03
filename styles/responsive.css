@@ -15,7 +15,7 @@
         height: 232px;
     }
     .academic{
-        height: 700px;
+        height: 520px;
     }
     .research{
         height: 600px;
@@ -38,10 +38,6 @@
         font-size: 12.5px;
         margin-left: 7.5px;
     }
-    #mainMenu .navbar{
-        padding-left: 40px;
-        padding-right: 40px;
-    }
     #mainMenu nav ul li{
         font-size: 10px;
         margin: 0;
@@ -56,10 +52,6 @@
     }
     .panel-heading h4{
         background: #0071cd;
-    }
-    .breadcrumb{
-        top: 79.5%;
-        left: 26%;
     }
     .fixed-bottom{
         position: fixed!important;
@@ -80,6 +72,11 @@
     }
     #barsMenu .active{
         background: #0078FF;
+    }
+    #title .list-group{
+        flex-direction: inherit;
+        text-align: center;
+        font-size: 12px;
     }
 }
 @media (max-width: 768px){
@@ -106,7 +103,6 @@
     }
     .breadcrumb{
         padding: 0;
-        top: 80%;
         font-size: 15px;
     }
     .fixed-bottom{
@@ -136,8 +132,6 @@
 @media (max-width: 576px){
     .breadcrumb{
         padding: 0;
-        top: 87%;
-        left: 33%;
         font-size: 13px;
     }
 }

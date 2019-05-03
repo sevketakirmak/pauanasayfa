@@ -195,13 +195,16 @@
                                 <div class="tab-content" id="nav-tabContent">
                                     <div class="tab-pane fade show active" id="list-student" role="tabpanel" aria-labelledby="list-student-list">
                                         <div class="row">
-                                            <div class="col-md-12 col-lg-6">
+                                            <div class="col-md-12 col-lg-4">
                                                 <ul>
                                                     <h5>Bağlantılar</h5>
                                                     <li><a>Eğitim Bilgi Sistemi</a></li>
                                                     <li><a>Kütüphane ve Dokümantasyon Daire Başkanlığı</a></li>
                                                     <li><a>Öğrenci Bilgi Sistemi</a></li>
-                                                    <br>
+                                                </ul>
+                                            </div>
+                                            <div class="col-md-12 col-lg-4">
+                                                <ul>
                                                     <h5>Öğrenci İşleri</h5>
                                                     <li><a>Uluslararası İlişkiler Koordinatörlüğü</a></li>
                                                     <li><a>Öğrenci İşleri Daire Başkanlığı</a></li>                                                                
@@ -209,7 +212,7 @@
                                                     <li><a>Sağlık Kültür ve Spor Daire Başkanlığı</a></li>
                                                 </ul>
                                             </div>
-                                            <div class="col-md-12 col-lg-6">
+                                            <div class="col-md-12 col-lg-4">
                                                 <ul>
                                                     <h5>Sosyal Hizmetler</h5>
                                                     <li><a>Engelli Öğrenci Birimi Koordinatörlüğü</a></li>
@@ -640,21 +643,20 @@
             </div>
             <div class="fixed"><a href="#mainheader" class="smooth"><img src="imgs/arrow-up.png" alt=""></a></div>
         </div>
-        <footer id="myFooter" class="fixed-bottom" class="myfoot">
+        <footer id="myFooter" class="fixed-bottom">
             <div id="copyrightFooter">
                 <p class="d-block d-md-none">© 2019 PAÜ Bilgi İşlem</p>
             </div>
             <div id="dropdownFooter" class="d-none d-md-block">
                 <div class="container">
-                    <div class="row">
-                        <div class="col-xs-6"><a id="btnCom" href="http://www.pau.edu.tr/tanitim">İletişim ve Ulaşım</a></div>
-                        <div class="col-xs-6"></div>
-                    
-                        <div class="btn-group dropup">
-                            <button id="dropBtn">
-                                Kurumsal Bağlantılar <i class="fas fa-caret-up"></i>
-                            </button>
-                            <div id="drop-Menu" class="dropdown-menu">
+                    <div class="com">
+                        <a id="btnCom" href="http://www.pau.edu.tr/tanitim">İletişim ve Ulaşım</a>
+                    </div>
+                    <div class="dropup">
+                        <button id="dropBtn">
+                            <span>Kurumsal Bağlantılar <i class="fas fa-caret-up"></i></span>
+                        </button>
+                        <div id="drop-Menu" class="dropdown-menu">
                                 <div class="container">
                                     <div class="row footerLinks">
                                         <div class="col-3">
@@ -732,7 +734,6 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
                         </div>
                     </div>
                 </div>
