@@ -687,7 +687,7 @@
                 </div>
             </div>
             <div id="mainButtons">
-                <div id="buttons" class="container owl-carousel">
+                <div id="buttons" class="container owl-carousel" style="padding:0px;">
                     <div><a href="https://pusula.pau.edu.tr/login.aspx?appKey=1794eb13-16f1-4118-b6e5-19916543e96b&backurl=https://obis.pau.edu.tr/" target="_blank" class="btn"><i class="fas fa-graduation-cap fa-2x"></i><br>Öğrenci Bilgi Sistemi</a></div>
                     <div><a href="http://app.pau.edu.tr/fone/rektorRandevu/talep.aspx" target="_blank" class="btn"><i class="far fa-calendar-alt fa-2x"></i><br>Rektör Randevu Talep</a></div>
                     <div><a href="https://app.pau.edu.tr/abs/Rezervasyon/EtkinlikSalonTalepIslemleri.aspx" target="_blank" class="btn"><i class="far fa-clock fa-2x"></i><br>Etkinlik Salon Talep</a></div>
@@ -1258,6 +1258,9 @@
                 responsive:{
                     0:{
                         items:2,
+                        autoplay:true,
+                        autoplayTimeout:4000,
+                        nav: false
                     },
                     768:{
                         items:3,

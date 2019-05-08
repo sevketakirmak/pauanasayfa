@@ -73,8 +73,9 @@ body, #wrapper{
     width: 100%;
 }
 #mainHead{
+    z-index: 150;
     position: absolute;
-    height:125px;
+    height:100px;
     margin: 0;
     width: 100%;
 }
@@ -482,7 +483,9 @@ textarea {
     position: relative!important;
     margin-top: -3%;
 }
-
+#mainButtons .container{
+    padding: 0;
+}
 #buttons .btn{
     font-size: 10px;
     height: 80px;
