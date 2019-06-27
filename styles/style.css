@@ -105,12 +105,12 @@ body, #wrapper{
     color: #06c8f2;
     text-decoration: none;
 }
-#dropFast{
+#dropdownMenuLink{
     height: 100%!important;
     padding: 3px;
     padding-right: 0px;
 }
-#dropFast:hover{
+#dropdownMenuLink:hover{
     color: white!important;
     background: #0078FF;
 }
@@ -344,15 +344,12 @@ body, #wrapper{
 #title{
     padding-bottom: 20px;
 }
-#barsMenu .active{
+#list-tab .active{
     color: white;
     border-radius: 0px;
     background: url("../imgs/arrow.png");
     background-size: contain;
     background-repeat: no-repeat;
-    /*border-top-right-radius: 100px;
-    border-bottom-right-radius: 100px;
-    background: #0078FF;*/
 }
 .mmenuBtn img{
     height: 35px;
@@ -448,6 +445,10 @@ textarea {
 }
 #iconUpDown{
     float: right;
+}
+#slider{
+    width: 100%;
+    min-height: 560px;
 }
 #rev_slider_1 p{
     margin-top: 20px;

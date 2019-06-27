@@ -81,7 +81,7 @@ $(function(){
 //Hizli Erisim kodları.
 var clickDfast = false;
 var dfast=true;
-$("#dropFast").click(function(){
+$("#dropdownMenuLink").click(function(){
     if(dfast){
         $("#mainHead .dropdown-menu ").slideDown("fast");
         $(this).addClass("bgBlue");
@@ -223,7 +223,7 @@ $("body").click(function(){
     }
     if(clickDfast){
         $("#mainHead .dropdown-menu ").slideUp("fast");
-        $("#dropFast").removeClass("bgBlue");
+        $("#dropdownMenuLink").removeClass("bgBlue");
         dfast=true;
     }
     footerOpen=true;

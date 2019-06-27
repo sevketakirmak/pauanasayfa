@@ -70,7 +70,7 @@
     #buttons div:nth-last-child(1) .btn:hover{
         background:#E4E4E4!important;
     }
-    #barsMenu .active{
+    #list-tab .active{
         background: #0078FF;
     }
     #title .list-group{

@@ -197,7 +197,7 @@
                                 <div class="pos-f-t">
                                     <div class="collapse show d-md-block" id="navbarToggleExternalContent">
                                         <div class="bg-light">
-                                            <div id="barsMenu" class="list-group" id="list-tab" role="tablist">
+                                            <div class="list-group" id="list-tab" role="tablist">
                                                 <a class="list-group-item list-group-item-action active" id="list-student-list" data-toggle="list" href="#list-student" role="tab" aria-controls="student">Öğrencilermiz</a>
                                                 <a class="list-group-item list-group-item-action" id="list-degree-list" data-toggle="list" href="#list-degree" role="tab" aria-controls="degree">Önlisans</a>
                                                 <a class="list-group-item list-group-item-action" id="list-faculty-list" data-toggle="list" href="#list-faculty" role="tab" aria-controls="faculty">Lisans</a>
@@ -445,12 +445,12 @@
                         <div class="container drpdownMenu student">
                             <div class="row d-flex justify-content-center">
                                 <div class="col-md-4"><button class="button button--wayra button--border-thin button--round-s"><i class="fas fa-university"></i> Eğitim Bilgi Sistemi</button></div>
-                                <div class="col-md-4"><button class="button button--wayra button--border-thin button--round-s"><i class="fas fa-clipboard-list"></i> Ders Programı</button></div>
-                                <div class="col-md-4"><button class="button button--wayra button--border-thin button--round-s"><i class="fas fa-server"></i> Eğitim Destek Sistemi</button></div>
-                                <div class="col-md-4"><button class="button button--wayra button--border-thin button--round-s"><i class="fas fa-compass"></i> Pusula Bilgis Sistemi Şifre Yenileme</button></div>
-                                <div class="col-md-4"><button class="button button--wayra button--border-thin button--round-s"><i class="fas fa-table"></i> Sınav Tarihi/Yeri Görüntüleme</button></div>
-                                <div class="col-md-4"><button class="button button--wayra button--border-thin button--round-s"><i class="fas fa-clipboard-list"></i> Not Görüntüleme</button></div>
-                                <div class="col-md-4"><button class="button button--wayra button--border-thin button--round-s"><i class="fas fa-id-card"></i> Kart Bakiye Sorgulama</button></div>
+                                <div class="col-md-4"><a class="button button--wayra button--border-thin button--round-s"><i class="fas fa-clipboard-list"></i> Ders Programı</a></div>
+                                <div class="col-md-4"><a class="button button--wayra button--border-thin button--round-s"><i class="fas fa-server"></i> Eğitim Destek Sistemi</a></div>
+                                <div class="col-md-4"><a class="button button--wayra button--border-thin button--round-s"><i class="fas fa-compass"></i> Pusula Bilgis Sistemi Şifre Yenileme</a></div>
+                                <div class="col-md-4"><a class="button button--wayra button--border-thin button--round-s"><i class="fas fa-table"></i> Sınav Tarihi/Yeri Görüntüleme</a></div>
+                                <div class="col-md-4"><a class="button button--wayra button--border-thin button--round-s"><i class="fas fa-clipboard-list"></i> Not Görüntüleme</a></div>
+                                <div class="col-md-4"><a class="button button--wayra button--border-thin button--round-s"><i class="fas fa-id-card"></i> Kart Bakiye Sorgulama</a></div>
                             </div>
                             <div id="imagesStudent" class="row d-flex justify-content-center" style="margin:-40px;">
                                 <div class="col-4 d-none d-md-block">
@@ -477,9 +477,10 @@
                         </ul>
                         <ul>
                             <li><a href="#">Click Here for English</a></li>
+                            <!--Dropdown-->
                             <li>
                                 <div class="dropdown" style="float: right;">
-                                    <a id="dropFast" class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink">
+                                    <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink">
                                         Hızlı Erişim
                                     </a>
                                     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuLink">
@@ -500,7 +501,10 @@
                             </li>
                         </ul>
                         <ul>
-                            <li class="" id="searchBtn" style="cursor: pointer;"><i class="fas fa-search fa-2x"></i></li>
+                            <!--Arama Butonu-->
+                            <li class="" id="searchBtn" style="cursor: pointer;">
+                                <i class="fas fa-search fa-2x"></i>
+                            </li>
                         </ul>
                     </ul>
                 </div>
@@ -1258,9 +1262,12 @@
                 responsive:{
                     0:{
                         items:2,
+                        /*degisti*/
                         autoplay:true,
                         autoplayTimeout:4000,
                         nav: false
+                        /******/
+                        
                     },
                     768:{
                         items:3,
