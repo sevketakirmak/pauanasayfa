@@ -448,7 +448,7 @@ textarea {
 }
 #slider{
     width: 100%;
-    min-height: 560px;
+    height: 560px;
 }
 #rev_slider_1 p{
     margin-top: 20px;
